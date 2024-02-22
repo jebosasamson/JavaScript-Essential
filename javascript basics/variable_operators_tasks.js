@@ -46,6 +46,9 @@ console.log(circumference_of_a_circle)
 let a = 18
 let b = 39
 
+a = 39
+b = 18
+
 
 
 console.log(a)
@@ -55,9 +58,42 @@ console.log(b)
 // Increment the value of num2 by 1 using the increment
 // operator (++) and print the result.
 
-let num2 = 13
-let i = 1
+let num2 = 13;
+let Increment_the_value = num2++
+console.log(num2)
 
-let Increment_the_value =(num2,++ )
-console.log(Increment_the_value)
+// Declare a variable num3 and assign it a numeric value.
+// Decrement the value of num3 by 1 using the decrement
+// operator (--) and print the result.
+
+let num3 = 45
+let Decrement_the_value = num3--
+ console.log(num3)
+
+//  Declare a variable num4 and assign it a numeric value. Check
+// if num4 is even or odd using the modulo operator (%) and
+// print the result.
+
+let num4 = 17
+
+if (num4 % 2 === 0) {
+    console.log(num4 + " is even");
+  } else {
+    console.log(num4 + " is odd");
+  }
+
+  console.log(num4)
+
+//   Declare a variable str2 and assign it a string value. Check if
+// str2 is empty or not using conditional statements and print
+// the result.
+
+let str2 = 'good morning'
+if (str2 === ''){
+    console.log('str2 is empty')
+}
+else{
+    console.log("str2 is not empty")
+}
+console.log(str2)
 
