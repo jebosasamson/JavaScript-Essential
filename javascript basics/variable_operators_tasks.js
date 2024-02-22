@@ -43,8 +43,21 @@ console.log(circumference_of_a_circle)
 // Declare two variables a and b, and assign them values. Swap
 // the values of a and b, and print the new values.
 
-let a = 8
-let b = 9
+let a = 18
+let b = 39
 
-a = 9
-b = 8
+
+
+console.log(a)
+console.log(b)
+
+// Declare a variable num2 and assign it a numeric value.
+// Increment the value of num2 by 1 using the increment
+// operator (++) and print the result.
+
+let num2 = 13
+let i = 1
+
+let Increment_the_value =(num2,++ )
+console.log(Increment_the_value)
+
