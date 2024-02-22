@@ -18,3 +18,33 @@ let str1 = '10'
 let print = num1 + 'str1'
 
 console.log(print)
+
+
+// Declare a variable length and assign it a value. Declare
+// another variable width and assign it a value. Calculate the
+// area of a rectangle (length * width) and print the result.
+let length = 5
+let width = 10
+
+ let area_Of_a_rectangle = (length * width)
+ 
+ console.log(area_Of_a_rectangle)
+
+//  Declare a variable radius and assign it a value. Calculate the
+// circumference of a circle (2 * π * radius) and print the result.
+
+let radius = 7
+const π = 3.14
+
+let circumference_of_a_circle = (2 * π * radius)
+
+console.log(circumference_of_a_circle)
+
+// Declare two variables a and b, and assign them values. Swap
+// the values of a and b, and print the new values.
+
+let a = 8
+let b = 9
+
+a = 9
+b = 8
